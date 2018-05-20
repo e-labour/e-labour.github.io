@@ -63,6 +63,36 @@
   </url>
   
   <url>
+    <loc>/tags/</loc>
+    <lastmod>2016-11-05T21:05:33+05:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ge"
+                href="/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>/post/work1/</loc>
+    <lastmod>2016-11-05T18:25:22+05:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/post/work1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ge"
+                href="/post/work1/"
+                />
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -112,7 +142,14 @@
   </url>
   
   <url>
+    <loc>/tags/tag/</loc>
+    <lastmod>2016-11-05T18:25:22+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/</loc>
+    <lastmod>2016-11-05T18:25:22+05:30</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"

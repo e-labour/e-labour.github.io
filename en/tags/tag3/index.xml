@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tag3 on Labour Market</title>
+    <link>/en/tags/tag3/</link>
+    <description>Recent content in Tag3 on Labour Market</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ge</language>
+    <lastBuildDate>Sat, 05 Nov 2016 19:44:32 +0530</lastBuildDate>
+    
+	<atom:link href="/en/tags/tag3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Another Awesome Post</title>
+      <link>/en/post/work3/</link>
+      <pubDate>Sat, 05 Nov 2016 19:44:32 +0530</pubDate>
+      
+      <guid>/en/post/work3/</guid>
+      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

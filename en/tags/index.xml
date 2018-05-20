@@ -6,9 +6,28 @@
     <description>Recent content in Tags on Labour Market</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ge</language>
+    <lastBuildDate>Sat, 05 Nov 2016 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/en/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Asd</title>
+      <link>/en/tags/asd/</link>
+      <pubDate>Sat, 05 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/en/tags/asd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tag3</title>
+      <link>/en/tags/tag3/</link>
+      <pubDate>Sat, 05 Nov 2016 19:44:32 +0530</pubDate>
+      
+      <guid>/en/tags/tag3/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
