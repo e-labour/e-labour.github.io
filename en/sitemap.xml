@@ -8,6 +8,21 @@
   </url>
   
   <url>
+    <loc>/en/contact/</loc>
+    <lastmod>2016-11-06T13:00:25+05:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ge"
+                href="/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/contact/"
+                />
+  </url>
+  
+  <url>
     <loc>/en/about/</loc>
     <lastmod>2016-11-05T21:05:33+05:30</lastmod>
     <xhtml:link
