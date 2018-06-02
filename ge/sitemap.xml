@@ -3,21 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/methodology0/</loc>
-    <lastmod>2016-11-05T19:41:01+05:30</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/post/methodology0/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ge"
-                href="/post/methodology0/"
-                />
-  </url>
-  
-  <url>
     <loc>/post/sources0/</loc>
     <lastmod>2016-11-05T19:41:01+05:30</lastmod>
     <xhtml:link
@@ -29,6 +14,21 @@
                 rel="alternate"
                 hreflang="ge"
                 href="/post/sources0/"
+                />
+  </url>
+  
+  <url>
+    <loc>/post/methodology0/</loc>
+    <lastmod>2016-01-05T19:41:01+05:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/post/methodology0/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ge"
+                href="/post/methodology0/"
                 />
   </url>
   
@@ -142,7 +142,7 @@
   
   <url>
     <loc>/categories/methodology/</loc>
-    <lastmod>2016-11-05T19:41:01+05:30</lastmod>
+    <lastmod>2016-01-05T19:41:01+05:30</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
