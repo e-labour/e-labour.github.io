@@ -2718,6 +2718,12 @@ li.pingback:first-child {
   }
 }
 
+@media only screen and (max-width: 480px) {
+  .site-title{
+    font-size: 21px;
+  }
+}
+
 
 @media only screen and (max-width: 600px) {
   .site-footer h3{
