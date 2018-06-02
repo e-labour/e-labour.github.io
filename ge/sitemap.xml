@@ -3,43 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/work2/</loc>
+    <loc>/post/methodology0/</loc>
     <lastmod>2016-11-05T19:41:01+05:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/post/methodology0/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ge"
+                href="/post/methodology0/"
+                />
   </url>
   
   <url>
-    <loc>/post/work4/</loc>
-    <lastmod>2016-11-05T19:50:47+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/work5/</loc>
-    <lastmod>2016-11-05T19:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/work7/</loc>
-    <lastmod>2016-11-05T19:57:40+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/work8/</loc>
-    <lastmod>2016-11-05T19:59:22+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/work9/</loc>
-    <lastmod>2016-11-05T20:02:19+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/work10/</loc>
-    <lastmod>2016-11-05T20:22:08+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/work11/</loc>
-    <lastmod>2016-11-05T20:23:59+05:30</lastmod>
+    <loc>/post/sources0/</loc>
+    <lastmod>2016-11-05T19:41:01+05:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/post/sources0/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ge"
+                href="/post/sources0/"
+                />
   </url>
   
   <url>
@@ -54,6 +44,21 @@
                 rel="alternate"
                 hreflang="ge"
                 href="/contact/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2016-11-05T21:05:33+05:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ge"
+                href="/tags/"
                 />
   </url>
   
@@ -73,37 +78,39 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2016-11-05T21:05:33+05:30</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ge"
-                href="/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>/post/work1/</loc>
+    <loc>/post/overview/</loc>
     <lastmod>2016-11-05T18:25:22+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/post/work1/"
+                href="/en/post/overview/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ge"
-                href="/post/work1/"
+                href="/post/overview/"
+                />
+  </url>
+  
+  <url>
+    <loc>/categories/analysis/</loc>
+    <lastmod>2016-11-05T18:25:22+05:30</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/categories/analysis/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ge"
+                href="/categories/analysis/"
                 />
   </url>
   
   <url>
     <loc>/categories/</loc>
+    <lastmod>2016-11-05T18:25:22+05:30</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -118,21 +125,35 @@
   </url>
   
   <url>
-    <loc>/categories/code/</loc>
-    <lastmod>2016-11-05T19:50:47+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/design/</loc>
+    <loc>/tags/code/</loc>
     <lastmod>2016-11-05T19:41:01+05:30</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/code/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ge"
+                href="/tags/code/"
+                />
   </url>
   
   <url>
-    <loc>/categories/photography/</loc>
-    <lastmod>2016-11-05T19:53:42+05:30</lastmod>
+    <loc>/categories/methodology/</loc>
+    <lastmod>2016-11-05T19:41:01+05:30</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/categories/methodology/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ge"
+                href="/categories/methodology/"
+                />
   </url>
   
   <url>
@@ -152,14 +173,24 @@
   </url>
   
   <url>
-    <loc>/tags/tag/</loc>
-    <lastmod>2016-11-05T18:25:22+05:30</lastmod>
+    <loc>/categories/sources/</loc>
+    <lastmod>2016-11-05T19:41:01+05:30</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/categories/sources/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ge"
+                href="/categories/sources/"
+                />
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2016-11-05T18:25:22+05:30</lastmod>
+    <lastmod>2016-11-05T19:41:01+05:30</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -170,6 +201,22 @@
                 rel="alternate"
                 hreflang="ge"
                 href="/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/visualisation/</loc>
+    <lastmod>2016-11-05T18:25:22+05:30</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/visualisation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ge"
+                href="/tags/visualisation/"
                 />
   </url>
   

@@ -6,16 +6,35 @@
     <description>Recent content in Categories on Labour Market Study</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ge</language>
+    <lastBuildDate>Sat, 05 Nov 2016 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/en/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Travel</title>
-      <link>/en/categories/travel/</link>
+      <title>Analysis</title>
+      <link>/en/categories/analysis/</link>
+      <pubDate>Sat, 05 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/en/categories/analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Methodology</title>
+      <link>/en/categories/methodology/</link>
       <pubDate>Sat, 05 Nov 2016 19:44:32 +0530</pubDate>
       
-      <guid>/en/categories/travel/</guid>
+      <guid>/en/categories/methodology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sources</title>
+      <link>/en/categories/sources/</link>
+      <pubDate>Sat, 05 Nov 2016 19:44:32 +0530</pubDate>
+      
+      <guid>/en/categories/sources/</guid>
       <description></description>
     </item>
     

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Labour Market Study</title>
-    <link>/en/post/</link>
-    <description>Recent content in Posts on Labour Market Study</description>
+    <title>Code on Labour Market Study</title>
+    <link>/en/tags/code/</link>
+    <description>Recent content in Code on Labour Market Study</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ge</language>
     <lastBuildDate>Sat, 05 Nov 2016 19:44:32 +0530</lastBuildDate>
     
-	<atom:link href="/en/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/en/tags/code/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -28,16 +28,6 @@
       
       <guid>/en/post/sources0/</guid>
       <description>&lt;p&gt;asdfasfgsdhdfhjfgjkghjk
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Overview</title>
-      <link>/en/post/overview/</link>
-      <pubDate>Sat, 05 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/en/post/overview/</guid>
-      <description>&lt;p&gt;asdfasdasdfasdfasdf
 &lt;/p&gt;</description>
     </item>
     

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Analysis on შრომის ბაზრის კვლევა</title>
+    <link>/categories/analysis/</link>
+    <description>Recent content in Analysis on შრომის ბაზრის კვლევა</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ge</language>
+    <lastBuildDate>Sat, 05 Nov 2016 18:25:22 +0530</lastBuildDate>
+    
+	<atom:link href="/categories/analysis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>მიმოხილვა</title>
+      <link>/post/overview/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      
+      <guid>/post/overview/</guid>
+      <description>&lt;p&gt;ასდფასდფასდგასდგასდგ
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
