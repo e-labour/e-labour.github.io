@@ -1,0 +1,63 @@
+#110800 (background: white;) - darkest background
+
+#38312f (#f8f7f9 for background only) - less dark background
+
+#8c8c8c (#4d4d4d for footer and changed opacities) - tag and category names, author box links and contact icons, pagination, footer title and description, copyright 
+
+#4d4d4d - post title and line under it, read more and line under it on list mode, post text and bold text as well, tag and category captions
+
+color: white (#4d4d4d); - both menus, site title, language icon, author box text, footer contact icons
+
+background: white; - post background in both list mode and single mode
+
+#aaaaaa - grey. post dates/categories, pagination hover
+
+#ffffff - white. .skip-content:active, .skip-content:focus, color. 
+
+#fff - white. #breadcrumbs a, color. 
+
+color: black; - category and tag names hover
+
+background: black; - send button hover background
+
+
+
+
+#ededed - light grey. .sidebar-footer .widget, .sidebar-after-post-content
+
+border-color: transparent;
+
+#f5f5f5 - lightest grey. markup styles: pre and code. 
+
+background: wheat - #F5DEB3. .excerpt.sticky .excerpt-container
+
+#1A1A1A - almost black. .sidebar-footer, .menu-footer-items .sub-menu
+
+#211810 - dark brown. .site-header .search-form-container
+
+rgba(255, 255, 255, 0.2) - white. .background-image-active .top-navigation, .background-texture-active .top-navigation
+
+#000 - black. used to be for contact form entry area outlines but now swutched to #38312f. 
+
+Changes so far: 
+
+menu-primary-items, site-title, toggle-navigation, toggle-secondary-navigation, menu-secondary-item, social-media-icons, site-footer h3 -- opacity for a 1 and for hover 0.6. 
+
+#000 - black for contact form entry area outlines but now swutched to #38312f also for submit button background. 
+
+in the end add:
+@media only screen and (max-width: 600px) {
+  .site-title{
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .site-footer h3{
+    font-size: 20px;
+  }
+}
+
+.site-footer (all h3's and other)
+@media for .site-footer
+menu-primary-tracks background 

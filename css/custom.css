@@ -74,6 +74,27 @@ body {
   -ms-word-wrap: break-word;
 }
 
+/* language specific stuff */
+:lang(ge) body, :lang(ge) .site-footer h3 {
+  font-family: "BPG Nino Elite", sans-serif;
+}
+:lang(ge) .site-title, :lang(ge) .excerpt-title, :lang(ge) .entry-title {
+  font-family: "BPG Nino Elite Caps", sans-serif;
+  font-weight: bold;
+}
+
+:lang(en) .site-title, :lang(en) .excerpt-title, :lang(en) .entry-title, :lang(en) .site-footer h3 {
+  font-weight: 500;
+}
+
+@media all and (min-width: 56.25em) {
+  :lang(en) .bio {
+    width: 45%;
+  }
+}  
+/* end of language specific stuff */
+
+
 .overflow-container {
   overflow: hidden;
   position: relative;
@@ -459,12 +480,15 @@ a img {
   z-index: 29;
 }
 
+
 .site-title {
   letter-spacing: 0.06em;
   opacity: 1;
   -webkit-transition: opacity 0.2s ease;
           transition: opacity 0.2s ease;
 }
+
+
 .site-title span {
   opacity: 0;
   position: absolute;
