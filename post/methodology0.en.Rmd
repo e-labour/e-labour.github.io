@@ -1,0 +1,59 @@
+---
+# image: "img/portfolio/bridge1.jpg" 
+showonlyimage: false
+date: "2016-07-15"
+title: "Merging the Data"
+categories: ["Methodology"]
+draft: false
+weight: 2
+tags: ["Code", "R"]
+description: "Merging dataframes in R."
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Sometimes the same job opening is advertised on multiple websites. Therefore, when attempting to merge the data from the three sources it is necessary to filter out the repetitions. We have chosen the following three criteria for filtering: position name, employer and deadline. A few issues accompany these criteria:
+
+<!--more-->
+
+* Position name and employer are typically given in both English and Georgian on jobs.ge, while hr.ge publishes in one of these languages and hr.gov.ge always publishes in Georgian. When comparing these fields we consider both languages of jobs.ge. 
+* In rare cases a position is posted on both hr.ge and jobs.ge but with a slightly altered name. For instance, on one website the position name might appear as “Credit Officer” with various locations listed in the location field and on the other as “Credit Officer in Tbilisi, Rustavi and Gori” with these locations listed in the name. However, as such instances are rather rare (XXX in total out of over 17,000 job openings), we decided to postpone resolution of this issue to when we study the location field in more detail. 
+* Considering the application deadline, we noticed that frequently a job posting appears on the second website with a few days delay from the original publication. As a result, the publication date and the deadline are accordingly moved by a few days. Therefore, we decided to consider the disparity of at most three days as acceptable when comparing the deadlines of job postings. 
+We check the criteria using the following function in R: 
+
+```{r eval=FALSE} 
+add_row_to_df <- function(row, df, n = 4) {
+  index1 <- (row$position_cleaned == df$position_cleaned) | 
+    (row$position_eng_cleaned == df$position_cleaned)
+  index1[is.na(index1)] <- FALSE
+  if (any(index1) == FALSE) {test <- FALSE} else {
+    df1 <- df[index1,]
+    index2 <- (row$employer_cleaned == df1$employer_cleaned) | 
+      (row$employer_eng_cleaned == df1$employer_cleaned)
+    index2[is.na(index2)] <- FALSE
+    if (any(index2) == FALSE) {test <- FALSE} else {
+      df2 <- df1[index2,]
+      x <- row$ბოლო_ვადა[1] 
+      if (is.na(x)) {test <- TRUE} else {
+        test <- any(abs(x - c(as.Date("01011900", format = '%d%m%Y'), 
+                            df2$ბოლო_ვადა[!is.na(df2$ბოლო_ვადა)])) < n) 
+      }
+    }
+  }
+  return(!test)                          
+}
+```
+
+<div style= "float:right;position: relative;">
+<img src="/img/methodology0/წყაროები_pic.jpg" width="300"> 
+</div>
+
+The function `add_row_to_df(row, df)` checks whether a job opening given in row (from, say, jobs.ge) appears in a database df (say, hr.ge). If it does, the function returns FALSE, meaning that the job opening should not be added to the database. If the job opening does not appear in the database, the function returns TRUE. 
+
+The next question is which one out of a given repeated pair or a triple should be kept in the database. As mentioned in [the description of the sources]( https://e-labour.github.io/en/post/sources0/), hr.ge makes more of the essential details accessible easily from separate fields compared to jobs.ge. Moreover, out of the three websites hr.gov.ge publishes the largest amount of information in such a readily obtainable manner. Therefore, in case of repetitions, we keep job posting from hr.jobs.ge whenever possible, then postings from hr.ge, and lastly, from jobs.ge. 
+
+Fun fact: according to our 2018 February-April records, 48% of the job postings come from hr.ge, 41% from jobs.ge and 11% from hr.gov.ge. 
+
+The code for filtering and merging the data is available on our [GitHub](https://github.com/e-labour/scrape) page and is compatible with the code for retrieving the data. 

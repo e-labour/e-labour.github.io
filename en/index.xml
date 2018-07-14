@@ -6,29 +6,39 @@
     <description>Recent content on Labour Market Study</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 05 Nov 2016 19:44:32 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 15 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Overview of Methodology</title>
-      <link>/en/post/methodology0/</link>
-      <pubDate>Sat, 05 Nov 2016 19:44:32 +0530</pubDate>
+      <title>Data Sources</title>
+      <link>/en/post/sources0/</link>
+      <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/en/post/methodology0/</guid>
-      <description>&lt;p&gt;sdasasgdafgsdhdfghfskskckhhsd
-&lt;/p&gt;</description>
+      <guid>/en/post/sources0/</guid>
+      <description>&lt;p&gt;Our study is based on the three major job-search websites for the Georgian labour market &amp;mdash; &lt;a href=&#34;http://jobs.ge&#34;&gt;jobs.ge&lt;/a&gt;, &lt;a href=&#34;https://hr.ge&#34;&gt;hr.ge&lt;/a&gt;, &lt;a href=&#34;https://www.hr.gov.ge&#34;&gt;hr.gov.ge&lt;/a&gt;. Since February 2018 we regularly check these sources and gather data to add to our database. The code for retrieving data from these websites is available on our &lt;a href=&#34;https://github.com/e-labour/scrape&#34;&gt;GitHub&lt;/a&gt; page.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Sources</title>
-      <link>/en/post/sources0/</link>
-      <pubDate>Sat, 05 Nov 2016 19:44:32 +0530</pubDate>
+      <title>Merging the Data</title>
+      <link>/en/post/methodology0/</link>
+      <pubDate>Fri, 15 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>/en/post/sources0/</guid>
-      <description>&lt;p&gt;asdfasfgsdhdfhjfgjkghjk
-&lt;/p&gt;</description>
+      <guid>/en/post/methodology0/</guid>
+      <description>Sometimes the same job opening is advertised on multiple websites. Therefore, when attempting to merge the data from the three sources it is necessary to filter out the repetitions. We have chosen the following three criteria for filtering: position name, employer and deadline. A few issues accompany these criteria:
+  Position name and employer are typically given in both English and Georgian on jobs.ge, while hr.ge publishes in one of these languages and hr.</description>
+    </item>
+    
+    <item>
+      <title>About the Study of Georgian Labour Market</title>
+      <link>/en/about/</link>
+      <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/en/about/</guid>
+      <description>Labour markets are a rich source of information about country’s economy, development level, and the nature of the society. As of June 2018, there are several key resources for observers of the Georgian labour market. These are: employment and wage statistics of the National Statistics Office of Georgia (Geostat) and the Labour Market Information System of the Ministry of Economy and Sustainable Development of Georgia. Caucasus Barometer – a public opinion survey carried out by the Caucasus Research Resources Center (CRRC) is also an interesting resource.</description>
     </item>
     
     <item>
@@ -38,15 +48,6 @@
       
       <guid>/en/contact/</guid>
       <description>We would like to hear about your comments and suggestions. Please contact us:</description>
-    </item>
-    
-    <item>
-      <title>About Our Study</title>
-      <link>/en/about/</link>
-      <pubDate>Sat, 05 Nov 2016 21:05:33 +0530</pubDate>
-      
-      <guid>/en/about/</guid>
-      <description>Translation coming soon.</description>
     </item>
     
     <item>

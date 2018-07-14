@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sources on Labour Market Study</title>
-    <link>/en/categories/sources/</link>
-    <description>Recent content in Sources on Labour Market Study</description>
+    <title>R on Labour Market Study</title>
+    <link>/en/tags/r/</link>
+    <description>Recent content in R on Labour Market Study</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 15 Jul 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/en/categories/sources/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/en/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,6 +20,16 @@
       <description>&lt;p&gt;Our study is based on the three major job-search websites for the Georgian labour market &amp;mdash; &lt;a href=&#34;http://jobs.ge&#34;&gt;jobs.ge&lt;/a&gt;, &lt;a href=&#34;https://hr.ge&#34;&gt;hr.ge&lt;/a&gt;, &lt;a href=&#34;https://www.hr.gov.ge&#34;&gt;hr.gov.ge&lt;/a&gt;. Since February 2018 we regularly check these sources and gather data to add to our database. The code for retrieving data from these websites is available on our &lt;a href=&#34;https://github.com/e-labour/scrape&#34;&gt;GitHub&lt;/a&gt; page.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Merging the Data</title>
+      <link>/en/post/methodology0/</link>
+      <pubDate>Fri, 15 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/en/post/methodology0/</guid>
+      <description>Sometimes the same job opening is advertised on multiple websites. Therefore, when attempting to merge the data from the three sources it is necessary to filter out the repetitions. We have chosen the following three criteria for filtering: position name, employer and deadline. A few issues accompany these criteria:
+  Position name and employer are typically given in both English and Georgian on jobs.ge, while hr.ge publishes in one of these languages and hr.</description>
     </item>
     
   </channel>
