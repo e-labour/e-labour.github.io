@@ -17,7 +17,7 @@ Tracks is distributed under the terms of the GNU GPL
 /*===== Variables =====*/
 /* Theme Colors */
 .site-title, .toggle-navigation i {
-  font-size: 1.625em;
+  font-size: 1.875em;
   line-height: 1.85;
 }
 
@@ -68,7 +68,7 @@ body {
   font-family: "raleway", sans-serif;
   line-height: 1.5;
   color: #4d4d4d;
-  background: #f8f7f9;
+  background: #f5f7f9;
   -webkit-font-smoothing: antialiased;
   word-wrap: break-word;
   -ms-word-wrap: break-word;
@@ -87,18 +87,61 @@ body {
   font-weight: 500;
 }
 
+:lang(ge) .social-media-icons {
+    font-family: "raleway", sans-serif;
+}
+
 @media all and (min-width: 56.25em) {
   :lang(en) .bio {
     width: 45%;
   }
 }  
 
-@media only screen and (max-width: 480px) {
-  :lang(ge) .site-title{
+@media all and (max-width: 480px) {
+  :lang(ge) .site-title, :lang(ge) .toggle-navigation i, :lang(ge) .excerpt-title, :lang(ge) .entry-title {
     font-size: 20px;
   }
 }
+
 /* end of language specific stuff */
+
+/*added media stuff*/
+@media all and (max-width: 600px) {
+  .site-title, .toggle-navigation i {
+    font-size: 1.313em;
+  }
+
+  .site-footer h3{
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .social-media-icons {
+    margin-right: -7px !important;
+  }
+}
+
+@media all and (min-width: 600px) and (max-width: 800px) {
+  .social-media-icons {
+    margin-right: -5px !important;
+  }
+}
+
+@media all and (min-width: 800px) and (max-width: 1000px) {
+  .social-media-icons {
+    margin-right: -3px !important;
+  }
+}
+
+@media all and (min-width: 1000px) and (max-width: 1200px) {
+  .social-media-icons {
+    margin-right: -1px !important;
+  }
+}
+/*end of added media stuff*/
+
+
 
 
 .overflow-container {
@@ -109,7 +152,7 @@ body {
 }
 
 .main {
-  background: #f8f7f9;
+  background: #f5f7f9;
   padding-bottom: 1.5em;
   margin: 0 auto;
 }
@@ -352,7 +395,7 @@ textarea {
 }
 
 input[type="submit"] {
-  background: #f8f7f9;
+  background: #f5f7f9;
   color: #4d4d4d;
   max-width: 22.2em;
   min-width: 11.1em;
@@ -1114,10 +1157,10 @@ a img {
 }
 
 .author-meta {
-  background: #f8f7f9;
+  background: #f5f7f9;
   color: #4d4d4d;
   padding: 1.5em;
-  margin: 3em 0 0;
+  margin: 3em 0 0;  
 }
 .author-meta a {
   color: #8c8c8c;
@@ -1227,7 +1270,7 @@ a img {
   .entry .featured-image:after {
     position: absolute;
     content: '';
-    background: #f8f7f9;
+    background: #f5f7f9;
     top: 0;
     bottom: 0;
     left: 0;
@@ -2444,7 +2487,7 @@ li.pingback:first-child {
   background: rgba(255, 255, 255, 0.2);
 }
 .background-image-active .site-footer {
-  background: #f8f7f9;
+  background: #f5f7f9;
 }
 
 /* background style textures */
@@ -2458,7 +2501,7 @@ li.pingback:first-child {
   border-color: transparent;
 }
 .background-texture-active .site-footer {
-  background: #f8f7f9;
+  background: #f5f7f9;
 }
 .background-texture-active .top-navigation {
   background: rgba(255, 255, 255, 0.2);
@@ -2706,7 +2749,7 @@ li.pingback:first-child {
 }
 
 .bbp-submit-wrapper button {
-  background: #f8f7f9;
+  background: #f5f7f9;
   color: #4d4d4d;
   max-width: 22.2em !important;
   min-width: 11.1em;
@@ -2741,24 +2784,4 @@ li.pingback:first-child {
     width: 500px !important;
   }
 }
-
-@media only screen and (max-width: 600px) {
-  .site-title{
-    font-size: 25px;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .site-title{
-    font-size: 21px;
-  }
-}
-
-
-@media only screen and (max-width: 600px) {
-  .site-footer h3{
-    font-size: 20px;
-  }
-}
-
 
