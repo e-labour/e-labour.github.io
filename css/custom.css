@@ -74,76 +74,6 @@ body {
   -ms-word-wrap: break-word;
 }
 
-/* language specific stuff */
-:lang(ge) body, :lang(ge) .site-footer h3 {
-  font-family: "BPG Nino Elite", sans-serif;
-}
-:lang(ge) .site-title, :lang(ge) .excerpt-title, :lang(ge) .entry-title {
-  font-family: "BPG Nino Elite Caps", sans-serif;
-  font-weight: bold;
-}
-
-:lang(en) .site-title, :lang(en) .excerpt-title, :lang(en) .entry-title, :lang(en) .site-footer h3 {
-  font-weight: 500;
-}
-
-:lang(ge) .social-media-icons {
-    font-family: "raleway", sans-serif;
-}
-
-@media all and (min-width: 56.25em) {
-  :lang(en) .bio {
-    width: 45%;
-  }
-}  
-
-@media all and (max-width: 480px) {
-  :lang(ge) .site-title, :lang(ge) .toggle-navigation i, :lang(ge) .excerpt-title, :lang(ge) .entry-title {
-    font-size: 20px;
-  }
-}
-
-/* end of language specific stuff */
-
-/*added media stuff*/
-@media all and (max-width: 600px) {
-  .site-title, .toggle-navigation i {
-    font-size: 1.313em;
-  }
-
-  .site-footer h3{
-    font-size: 20px;
-  }
-}
-
-@media all and (max-width: 600px) {
-  .social-media-icons {
-    margin-right: -7px !important;
-  }
-}
-
-@media all and (min-width: 600px) and (max-width: 800px) {
-  .social-media-icons {
-    margin-right: -5px !important;
-  }
-}
-
-@media all and (min-width: 800px) and (max-width: 1000px) {
-  .social-media-icons {
-    margin-right: -3px !important;
-  }
-}
-
-@media all and (min-width: 1000px) and (max-width: 1200px) {
-  .social-media-icons {
-    margin-right: -1px !important;
-  }
-}
-/*end of added media stuff*/
-
-
-
-
 .overflow-container {
   overflow: hidden;
   position: relative;
@@ -413,7 +343,7 @@ input[type="submit"] {
 }
 input[type="submit"]:hover, input[type="submit"]:active, input[type="submit"]:focus {
   cursor: pointer;
-  background: #38312f;
+  background: #e5e9f1;
 }
 
 input[type="search"] {
@@ -2784,4 +2714,74 @@ li.pingback:first-child {
     width: 500px !important;
   }
 }
+
+
+
+/* language specific stuff */
+:lang(ge) body, :lang(ge) .site-footer h3, :lang(ge) textarea, :lang(ge) input[type="submit"], :lang(ge) input[type="text"] {
+  font-family: "BPG Nino Elite", sans-serif;
+}
+:lang(ge) .site-title, :lang(ge) .excerpt-title, :lang(ge) .entry-title {
+  font-family: "BPG Nino Elite Caps", sans-serif;
+  font-weight: bold;
+}
+
+:lang(en) .site-title, :lang(en) .excerpt-title, :lang(en) .entry-title, :lang(en) .site-footer h3 {
+  font-weight: 500;
+}
+
+:lang(ge) .social-media-icons {
+    font-family: "raleway", sans-serif;
+}
+
+@media all and (min-width: 56.25em) {
+  :lang(en) .bio {
+    width: 45%;
+  }
+}  
+
+@media all and (max-width: 480px) {
+  :lang(ge) .site-title, :lang(ge) .toggle-navigation i, :lang(ge) .excerpt-title, :lang(ge) .entry-title {
+    font-size: 20px;
+  }
+}
+
+/* end of language specific stuff */
+
+/*added media stuff*/
+@media all and (max-width: 600px) {
+  .site-title, .toggle-navigation i {
+    font-size: 1.313em;
+  }
+
+  .site-footer h3{
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .social-media-icons {
+    margin-right: -7px !important;
+  }
+}
+
+@media all and (min-width: 600px) and (max-width: 800px) {
+  .social-media-icons {
+    margin-right: -5px !important;
+  }
+}
+
+@media all and (min-width: 800px) and (max-width: 1000px) {
+  .social-media-icons {
+    margin-right: -3px !important;
+  }
+}
+
+@media all and (min-width: 1000px) and (max-width: 1200px) {
+  .social-media-icons {
+    margin-right: -1px !important;
+  }
+}
+/*end of added media stuff*/
+
 

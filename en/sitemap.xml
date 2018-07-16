@@ -3,32 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/en/post/sources0/</loc>
-    <lastmod>2018-07-15T00:00:00+00:00</lastmod>
+    <loc>/en/post/analysis0/</loc>
+    <lastmod>2018-07-16T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ge"
-                href="/post/sources0/"
+                href="/post/analysis0/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/post/sources0/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/post/methodology0/</loc>
-    <lastmod>2016-07-15T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ge"
-                href="/post/methodology0/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/post/methodology0/"
+                href="/en/post/analysis0/"
                 />
   </url>
   
@@ -44,6 +29,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/post/sources0/</loc>
+    <lastmod>2018-07-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ge"
+                href="/post/sources0/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/post/sources0/"
                 />
   </url>
   
@@ -78,23 +78,23 @@
   </url>
   
   <url>
-    <loc>/en/post/overview/</loc>
-    <lastmod>2016-11-05T00:00:00+00:00</lastmod>
+    <loc>/en/post/methodology0/</loc>
+    <lastmod>2016-07-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ge"
-                href="/post/overview/"
+                href="/post/methodology0/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/post/overview/"
+                href="/en/post/methodology0/"
                 />
   </url>
   
   <url>
     <loc>/en/categories/analysis/</loc>
-    <lastmod>2016-11-05T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -110,7 +110,7 @@
   
   <url>
     <loc>/en/categories/</loc>
-    <lastmod>2016-11-05T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -142,7 +142,7 @@
   
   <url>
     <loc>/en/</loc>
-    <lastmod>2018-07-15T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -174,7 +174,7 @@
   
   <url>
     <loc>/en/post/</loc>
-    <lastmod>2018-07-15T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -238,7 +238,7 @@
   
   <url>
     <loc>/en/tags/visualisation/</loc>
-    <lastmod>2016-11-05T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
