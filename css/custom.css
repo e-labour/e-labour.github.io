@@ -1116,10 +1116,13 @@ a img {
   letter-spacing: 0.1em;
   display: block;
 }
+
 .author-meta .bio a {
   margin-right: 0.375em;
   display: inline-block;
 }
+
+
 
 /* 600px */
 @media all and (min-width: 37.5em) {
@@ -1155,12 +1158,13 @@ a img {
     height: 0;
   }
 
-  .author-meta .author {
+
+  /*.author-meta .author {
     display: inline-block;
   }
   .author-meta .author img {
     margin-bottom: 0;
-  }
+  }*/
   .author-meta:after {
     content: ".";
     display: block;
@@ -1170,13 +1174,14 @@ a img {
     height: 0;
   }
 
-  .bio {
+  /*.bio {
     float: right;
     width: 50%;
-  }
+  } 
   .bio p {
     margin-top: 0;
-  }
+  }*/
+  
 }
 /* 700px */
 @media all and (min-width: 43.75em) {
@@ -2734,11 +2739,11 @@ li.pingback:first-child {
     font-family: "raleway", sans-serif;
 }
 
-@media all and (min-width: 56.25em) {
+/*@media all and (min-width: 56.25em) {
   :lang(en) .bio {
     width: 45%;
   }
-}  
+} */ 
 
 @media all and (max-width: 480px) {
   :lang(ge) .site-title, :lang(ge) .toggle-navigation i, :lang(ge) .excerpt-title, :lang(ge) .entry-title {
