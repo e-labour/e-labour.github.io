@@ -939,7 +939,12 @@ a img {
     padding: 0.75em 1.5em 3em;
   }
 
-  .excerpt-title, .entry-title {
+  .excerpt-title {
+    font-size: 1.675em;
+    /* 30px */
+    line-height: 1.5;
+  }
+  .entry-title {
     font-size: 1.875em;
     /* 30px */
     line-height: 1.6;
@@ -2723,7 +2728,7 @@ li.pingback:first-child {
 
 
 /* language specific stuff */
-:lang(ge) body, :lang(ge) .site-footer h3, :lang(ge) textarea, :lang(ge) input[type="submit"], :lang(ge) input[type="text"] {
+:lang(ge) body, :lang(ge) .site-footer h3, :lang(ge) textarea, :lang(ge) input[type="submit"], :lang(ge) input[type="text"], :lang(ge) .excerpt-title .subtitle, :lang(ge) .entry-title .subtitle {
   font-family: "BPG Nino Elite", sans-serif;
 }
 :lang(ge) .site-title, :lang(ge) .excerpt-title, :lang(ge) .entry-title {
@@ -2733,6 +2738,16 @@ li.pingback:first-child {
 
 :lang(en) .site-title, :lang(en) .excerpt-title, :lang(en) .entry-title, :lang(en) .site-footer h3 {
   font-weight: 500;
+}
+
+:lang(en) .excerpt-title .subtitle, :lang(en) .entry-title .subtitle {
+  text-transform: capitalize;
+}
+
+.excerpt-title .subtitle, .entry-title .subtitle {
+  font-size: 70%;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 :lang(ge) .social-media-icons {
@@ -2787,5 +2802,20 @@ li.pingback:first-child {
     margin-right: -1px !important;
   }
 }
-/*end of added media stuff*/
 
+@media all and (min-width: 600px){
+  .entry .featured-image {
+    position: relative;
+    height: 0;
+    padding-bottom: 40%;
+    top: 1em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.3s ease;
+            transition: transform 0.3s ease;
+  }
+}
+/*end of added media stuff*/
