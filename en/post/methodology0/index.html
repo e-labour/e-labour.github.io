@@ -20,13 +20,13 @@
         "publisher": "",
         "accountablePerson" : "",
         "copyrightHolder" : "",
-        "copyrightYear" : "2016",
-        "datePublished": "2016-07-15 00:00:00 &#43;0000 UTC",
-        "dateModified" : "2016-07-15 00:00:00 &#43;0000 UTC",
+        "copyrightYear" : "2018",
+        "datePublished": "2018-07-25 00:00:00 &#43;0000 UTC",
+        "dateModified" : "2018-07-25 00:00:00 &#43;0000 UTC",
         "url" : "/en/post/methodology0/",
-        "wordCount" : "519",
+        "wordCount" : "522",
         "image" : /%!s(&lt;nil&gt;)",
-        "keywords" : [ "Code","R","Blog" ]   
+        "keywords" : [ "Code","R","GitHub","Blog" ]   
     }
     </script>
 
@@ -171,7 +171,7 @@
 
         
         <div class="entry-meta">
-          <span class="date">15 July 2016</span>	
+          <span class="date">25 July 2018</span>	
 
           
 
@@ -202,9 +202,10 @@
 <ul>
 <li>Position name and employer are typically given in both English and Georgian on jobs.ge, while hr.ge publishes in one of these languages and hr.gov.ge always publishes in Georgian. When comparing these fields we consider both languages of jobs.ge.</li>
 <li>In rare cases a position is posted on both hr.ge and jobs.ge but with a slightly altered name. For instance, on one website the position name might appear as “Credit Officer” with various locations listed in the location field and on the other as “Credit Officer in Tbilisi, Rustavi and Gori” with these locations listed in the name. However, as such instances are rather rare (15 in total out of over 17,000 job openings), we decided to postpone resolution of this issue to when we study the location field in more detail.</li>
-<li>Considering the application deadline, we noticed that frequently a job posting appears on the second website with a few days delay from the original publication. As a result, the publication date and the deadline are accordingly moved by a few days. Therefore, we decided to consider the disparity of at most three days as acceptable when comparing the deadlines of job postings.
-We check the criteria using the following function in R:</li>
+<li>Considering the application deadline, we noticed that frequently a job posting appears on the second website with a few days delay from the original publication. As a result, the publication date and the deadline are accordingly moved by a few days. Therefore, we decided to consider the disparity of at most three days as acceptable when comparing the deadlines of job postings.</li>
 </ul>
+
+<p>We check the criteria using the following function in R:</p>
 
 <pre><code class="language-r">add_row_to_df &lt;- function(row, df, n = 4) {
   index1 &lt;- (row$position_cleaned == df$position_cleaned) | 
@@ -228,13 +229,13 @@ We check the criteria using the following function in R:</li>
 }
 </code></pre>
 
-<div style= "float:right;width: 50%; position: relative;">
+<!---<div style= "float:right;width: 50%; position: relative;">
 <img src="/img/methodology0/წყაროები_pic.jpg" width="100%"> 
-</div>
+</div> -->
 
 <p>The function <code>add_row_to_df(row, df)</code> checks whether a job opening given in row (from, say, jobs.ge) appears in a database df (say, hr.ge). If it does, the function returns FALSE, meaning that the job opening should not be added to the database. If the job opening does not appear in the database, the function returns TRUE.</p>
 
-<p>The next question is which one out of a given repeated pair or a triple should be kept in the database. As mentioned in <a href="https://e-labour.github.io/en/post/sources0/">the description of the sources</a>, hr.ge makes more of the essential details accessible easily from separate fields compared to jobs.ge. Moreover, out of the three websites hr.gov.ge publishes the largest amount of information in such a readily obtainable manner. Therefore, in case of duplications, we keep job posting from hr.jobs.ge whenever possible, then postings from hr.ge, and lastly, from jobs.ge.</p>
+<p>The next issue is to decide which one out of a given repeated pair or a triple should be kept in the database. As mentioned in <a href="https://e-labour.github.io/en/post/sources0/">the description of the sources</a>, hr.ge makes more of the essential details accessible easily from separate fields compared to jobs.ge. Moreover, out of the three websites hr.gov.ge publishes the largest amount of information in such a readily obtainable manner. Therefore, in case of duplications, we keep job posting from hr.jobs.ge whenever possible, then postings from hr.ge, and lastly, from jobs.ge.</p>
 
 <p>Fun fact: according to our 2018 February-April records, 48% of the job postings come from hr.ge, 41% from jobs.ge and 11% from hr.gov.ge.</p>
 
@@ -258,6 +259,8 @@ We check the criteria using the following function in R:</li>
   <a href="/en/tags/code" title="View all posts tagged Code">Code</a>
   
   <a href="/en/tags/r" title="View all posts tagged R">R</a>
+  
+  <a href="/en/tags/github" title="View all posts tagged GitHub">GitHub</a>
   
 
 </p></div>	</div>

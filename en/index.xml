@@ -6,7 +6,7 @@
     <description>Recent content on Labour Market Study</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,10 +14,32 @@
     <item>
       <title>Employment Opportunities in Georgia</title>
       <link>/en/post/analysis0/</link>
-      <pubDate>Mon, 16 Jul 2018 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/en/post/analysis0/</guid>
       <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Merging the Georgian Labour Market Data</title>
+      <link>/en/post/methodology0/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/en/post/methodology0/</guid>
+      <description>&lt;p&gt;Sometimes the same job opening is advertised on multiple websites. Therefore, when attempting to merge the data from the three sources it is necessary to filter out the duplications. We have chosen the following three criteria for filtering: position name, employer and deadline. A few issues accompany these criteria:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Georgian Labour Market Data Sources</title>
+      <link>/en/post/sources0/</link>
+      <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/en/post/sources0/</guid>
+      <description>&lt;p&gt;Our study is based on the three major job-search websites for the Georgian labour market &amp;mdash; &lt;a href=&#34;http://jobs.ge&#34;&gt;jobs.ge&lt;/a&gt;, &lt;a href=&#34;https://hr.ge&#34;&gt;hr.ge&lt;/a&gt;, &lt;a href=&#34;https://www.hr.gov.ge&#34;&gt;hr.gov.ge&lt;/a&gt;. Since February 2018 we regularly check these sources and gather data to add to our database. The code for retrieving data from these websites is available on our &lt;a href=&#34;https://github.com/e-labour/scrape&#34;&gt;GitHub&lt;/a&gt; page.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -27,17 +49,6 @@
       
       <guid>/en/about/</guid>
       <description>Labour markets are a rich source of information about country’s economy, development level, and the nature of the society. As of June 2018, there are several key resources for observers of the Georgian labour market. These are: employment and wage statistics of the National Statistics Office of Georgia (Geostat) and the Labour Market Information System of the Ministry of Economy and Sustainable Development of Georgia. Caucasus Barometer – a public opinion survey carried out by the Caucasus Research Resources Center (CRRC) is also an interesting resource.</description>
-    </item>
-    
-    <item>
-      <title>Georgian Labour Market Data Sources</title>
-      <link>/en/post/sources0/</link>
-      <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/en/post/sources0/</guid>
-      <description>&lt;p&gt;Our study is based on the three major job-search websites for the Georgian labour market &amp;mdash; &lt;a href=&#34;http://jobs.ge&#34;&gt;jobs.ge&lt;/a&gt;, &lt;a href=&#34;https://hr.ge&#34;&gt;hr.ge&lt;/a&gt;, &lt;a href=&#34;https://www.hr.gov.ge&#34;&gt;hr.gov.ge&lt;/a&gt;. Since February 2018 we regularly check these sources and gather data to add to our database. The code for retrieving data from these websites is available on our &lt;a href=&#34;https://github.com/e-labour/scrape&#34;&gt;GitHub&lt;/a&gt; page.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -56,17 +67,6 @@
       
       <guid>/en/tags/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Merging the Georgian Labour Market Data</title>
-      <link>/en/post/methodology0/</link>
-      <pubDate>Fri, 15 Jul 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/en/post/methodology0/</guid>
-      <description>&lt;p&gt;Sometimes the same job opening is advertised on multiple websites. Therefore, when attempting to merge the data from the three sources it is necessary to filter out the duplications. We have chosen the following three criteria for filtering: position name, employer and deadline. A few issues accompany these criteria:&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

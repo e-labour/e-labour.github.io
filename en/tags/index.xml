@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Labour Market Study</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/en/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,27 +14,54 @@
     <item>
       <title>Code</title>
       <link>/en/tags/code/</link>
-      <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/en/tags/code/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>GitHub</title>
+      <link>/en/tags/github/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/en/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>/en/tags/overview/</link>
+      <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/en/tags/overview/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>R</title>
       <link>/en/tags/r/</link>
-      <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/en/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Visualisation</title>
-      <link>/en/tags/visualisation/</link>
-      <pubDate>Mon, 16 Jul 2018 00:00:00 +0000</pubDate>
+      <title>Tableau</title>
+      <link>/en/tags/tableau/</link>
+      <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/en/tags/visualisation/</guid>
+      <guid>/en/tags/tableau/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Year18</title>
+      <link>/en/tags/year18/</link>
+      <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/en/tags/year18/</guid>
       <description></description>
     </item>
     

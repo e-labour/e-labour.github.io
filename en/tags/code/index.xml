@@ -6,26 +6,15 @@
     <description>Recent content in Code on Labour Market Study</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/en/tags/code/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Georgian Labour Market Data Sources</title>
-      <link>/en/post/sources0/</link>
-      <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/en/post/sources0/</guid>
-      <description>&lt;p&gt;Our study is based on the three major job-search websites for the Georgian labour market &amp;mdash; &lt;a href=&#34;http://jobs.ge&#34;&gt;jobs.ge&lt;/a&gt;, &lt;a href=&#34;https://hr.ge&#34;&gt;hr.ge&lt;/a&gt;, &lt;a href=&#34;https://www.hr.gov.ge&#34;&gt;hr.gov.ge&lt;/a&gt;. Since February 2018 we regularly check these sources and gather data to add to our database. The code for retrieving data from these websites is available on our &lt;a href=&#34;https://github.com/e-labour/scrape&#34;&gt;GitHub&lt;/a&gt; page.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Merging the Georgian Labour Market Data</title>
       <link>/en/post/methodology0/</link>
-      <pubDate>Fri, 15 Jul 2016 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/en/post/methodology0/</guid>
       <description>&lt;p&gt;Sometimes the same job opening is advertised on multiple websites. Therefore, when attempting to merge the data from the three sources it is necessary to filter out the duplications. We have chosen the following three criteria for filtering: position name, employer and deadline. A few issues accompany these criteria:&lt;/p&gt;

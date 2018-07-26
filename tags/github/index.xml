@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on შრომის ბაზრის კვლევა</title>
-    <link>/post/</link>
-    <description>Recent content in Posts on შრომის ბაზრის კვლევა</description>
+    <title>GitHub on შრომის ბაზრის კვლევა</title>
+    <link>/tags/github/</link>
+    <description>Recent content in GitHub on შრომის ბაზრის კვლევა</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ge</language>
-    <lastBuildDate>Thu, 26 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Jul 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/github/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>დასაქმების შესაძლებლობები საქართველოში</title>
-      <link>/post/analysis0/</link>
-      <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/analysis0/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;</description>
-    </item>
     
     <item>
       <title>ქართული შრომის ბაზრის მონაცემთა თავმოყრა</title>

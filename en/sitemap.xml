@@ -4,7 +4,7 @@
   
   <url>
     <loc>/en/post/analysis0/</loc>
-    <lastmod>2018-07-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ge"
@@ -14,6 +14,36 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/post/analysis0/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/post/methodology0/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ge"
+                href="/post/methodology0/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/post/methodology0/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/post/sources0/</loc>
+    <lastmod>2018-07-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ge"
+                href="/post/sources0/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/post/sources0/"
                 />
   </url>
   
@@ -29,21 +59,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/about/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/post/sources0/</loc>
-    <lastmod>2018-07-15T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ge"
-                href="/post/sources0/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/post/sources0/"
                 />
   </url>
   
@@ -78,23 +93,8 @@
   </url>
   
   <url>
-    <loc>/en/post/methodology0/</loc>
-    <lastmod>2016-07-15T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ge"
-                href="/post/methodology0/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/post/methodology0/"
-                />
-  </url>
-  
-  <url>
     <loc>/en/categories/analysis/</loc>
-    <lastmod>2018-07-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -110,7 +110,7 @@
   
   <url>
     <loc>/en/categories/</loc>
-    <lastmod>2018-07-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -126,7 +126,7 @@
   
   <url>
     <loc>/en/tags/code/</loc>
-    <lastmod>2018-07-15T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -141,8 +141,24 @@
   </url>
   
   <url>
+    <loc>/en/tags/github/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ge"
+                href="/tags/github/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/github/"
+                />
+  </url>
+  
+  <url>
     <loc>/en/</loc>
-    <lastmod>2018-07-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -158,7 +174,7 @@
   
   <url>
     <loc>/en/categories/methodology/</loc>
-    <lastmod>2016-07-15T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -173,8 +189,24 @@
   </url>
   
   <url>
+    <loc>/en/tags/overview/</loc>
+    <lastmod>2018-07-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ge"
+                href="/tags/overview/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/overview/"
+                />
+  </url>
+  
+  <url>
     <loc>/en/post/</loc>
-    <lastmod>2018-07-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -190,7 +222,7 @@
   
   <url>
     <loc>/en/tags/r/</loc>
-    <lastmod>2018-07-15T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -206,7 +238,7 @@
   
   <url>
     <loc>/en/categories/sources/</loc>
-    <lastmod>2018-07-15T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -221,8 +253,24 @@
   </url>
   
   <url>
+    <loc>/en/tags/tableau/</loc>
+    <lastmod>2018-07-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ge"
+                href="/tags/tableau/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/tableau/"
+                />
+  </url>
+  
+  <url>
     <loc>/en/tags/</loc>
-    <lastmod>2018-07-15T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -237,18 +285,18 @@
   </url>
   
   <url>
-    <loc>/en/tags/visualisation/</loc>
-    <lastmod>2018-07-16T00:00:00+00:00</lastmod>
+    <loc>/en/tags/year18/</loc>
+    <lastmod>2018-07-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ge"
-                href="/tags/visualisation/"
+                href="/tags/year18/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/visualisation/"
+                href="/en/tags/year18/"
                 />
   </url>
   

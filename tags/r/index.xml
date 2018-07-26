@@ -6,7 +6,7 @@
     <description>Recent content in R on შრომის ბაზრის კვლევა</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ge</language>
-    <lastBuildDate>Sun, 15 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,21 +14,10 @@
     <item>
       <title>ქართული შრომის ბაზრის მონაცემთა თავმოყრა</title>
       <link>/post/methodology0/</link>
-      <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/methodology0/</guid>
       <description>&lt;p&gt;ხშირია შემთხვევები, როდესაც ერთი და იგივე ვაკანსია რამდენიმე ვებ-გვერდზე ქვეყნდება. ამიტომ მონაცემთა თავმოყრისას საჭიროა მათი გაცხრილვა. ამ მიზნით სამი ძირითადი კრიტერიუმი შევარჩიეთ: ვაკანსიის დასახელება, დამსაქმებელი და ვაკანსიაზე განაცხადის შეტანის ბოლო ვადა. ამ კრიტერიუმებს თავისი დამატებითი ნიუანსები ახლავს.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>ქართული შრომის ბაზრის მონაცემთა წყაროები</title>
-      <link>/post/sources0/</link>
-      <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/sources0/</guid>
-      <description>&lt;p&gt;ჩვენი კვლევა ქართულ შრომის ბაზარზე არსებული ვაკანსიების სამ უმსხვილეს ვებ წყაროს ეფუძნება, ესენია &amp;mdash;  &lt;a href=&#34;http://jobs.ge&#34;&gt;jobs.ge&lt;/a&gt;, &lt;a href=&#34;https://hr.ge&#34;&gt;hr.ge&lt;/a&gt;, &lt;a href=&#34;https://www.hr.gov.ge&#34;&gt;hr.gov.ge&lt;/a&gt;. 2018 წლის თებერვლიდან ჩვენ რეგულარულად ვამოწმებთ სამივე წყაროს და ვაახლებთ ვაკანსიების ერთიან მონაცემთა ბაზას. მონაცემთა შესაგროვებლად გამოყენებული კოდი ხელმისაწვდომია ჩვენ &lt;a href=&#34;https://github.com/e-labour/scrape&#34;&gt;გითჰაბ&lt;/a&gt; გვერდზე და ღია რესურსია ყველა დაინტერესებული პირისთვის.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
