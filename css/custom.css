@@ -2731,7 +2731,7 @@ li.pingback:first-child {
 :lang(ge) body, :lang(ge) .site-footer h3, :lang(ge) textarea, :lang(ge) input[type="submit"], :lang(ge) input[type="text"], :lang(ge) .excerpt-title .subtitle, :lang(ge) .entry-title .subtitle {
   font-family: "BPG Nino Elite", sans-serif;
 }
-:lang(ge) .site-title, :lang(ge) .excerpt-title, :lang(ge) .entry-title {
+:lang(ge) .site-title, :lang(ge) .excerpt-title, :lang(ge) .entry-title, :lang(ge) .archive-header h1 {
   font-family: "BPG Nino Elite Caps", sans-serif;
   font-weight: bold;
 }
